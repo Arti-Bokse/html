@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Form Demo</title>
+    </head>
+
+    <body style="background-color: blueviolet;width: 100%; color: white">
+        <h1>Form Demo</h1>
+
+        <form action="index.html" style="text-align: left;font-family: arial; font-size: 20px;color: white">
+            <div style="margin-top: 20px">
+                <label for="first-name">First Name</label>
+                <input required name="firstName" placeholder="first name" id="first-name" type="text">
+            </div>
+            <div style="margin-top: 20px">
+                <label for="last-name">Last Name</label>
+                <input name="lastName" placeholder="last name" id="last-name" type="text">
+            </div>
+            <div style="margin-top: 20px">
+                <label for="">Password</label>
+                <input name="password" type="password">
+            </div>
+            <div style="margin-top: 20px">
+                <label for="age">Age</label>
+                <input name="age" placeholder="age" id="age" type="number">
+            </div>
+            <div style="margin-top: 20px">
+                <label for="email">Email</label>
+                <input name="email" id="email" type="email">
+            </div>
+            <div style="margin-top: 20px">
+                <label for="phone">Phone Number</label>
+                <input name="phone" id="phone" type="tel">
+            </div>
+            <div style="margin-top: 20px">
+                <label for="birth-date">Birth Date</label>
+                <input id="birth-date" type="date">
+            </div>
+            <div style="margin-top: 20px">
+                <label for="birth-time">Birth Time</label>
+                <input id="birth-time" type="time">
+            </div>
+            <div style="margin-top: 20px">
+                <label for="birth-date-time">Birth Date and Time</label>
+                <input id="birth-date-time" type="datetime">
+            </div>
+            <div style="margin-top: 20px">
+                <label for="">Gender</label>
+                <input name="gender" type="radio"> Male
+                <input name="gender" type="radio"> Female
+            </div>
+            <div style="margin-top: 20px">
+                <label for="">Favorite Languages</label>
+                <input type="checkbox"> C
+                <input type="checkbox"> C++
+                <input type="checkbox"> JS
+                <input type="checkbox"> HTML
+                <input type="checkbox"> Java
+                <input type="checkbox"> Kotlin
+                <input type="checkbox"> Swift
+            </div>
+            <div style="margin-top: 20px">
+                <label for="">Address</label>
+                <textarea name="address" rows="5"></textarea>
+            </div>
+            <div style="margin-top: 20px">
+                <label for="">Country</label>
+                <select name="country">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Bhutan">Bhutan</option>
+                </select>
+            </div>
+            <div style="margin-top: 20px">
+                <label for="">Profile image</label>
+                <input type="file">
+            </div>
+            <div style="margin-top: 20px">
+                <input type="submit" style="color: white; background-color:grey;font-size:20px">
+                <input type="reset" style="color: white; background-color:grey;font-size:20px">
+            </div>
+        </form>
+    </body>
+</html>
